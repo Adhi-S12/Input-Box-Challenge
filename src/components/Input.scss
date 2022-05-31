@@ -1,0 +1,135 @@
+// Default Title
+.inputTitle{
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+// Default label
+.inputLabel{
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 16px;
+  color: #333;
+}
+
+// Default input box
+.inputBox{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 18px 12px;
+  border: 1px solid #828282;
+  color: #828282;
+  border-radius: 8px;
+  margin-top: 4px;
+  outline: none;
+
+  &:hover{
+    border: 1px solid #333333;
+  }
+  &:focus{
+    border: 1px solid  #2962FF;
+  }
+}
+
+// InputBlock
+.inputBlock{
+  position: relative;
+}
+
+// Inputblock with error prop
+.inputBlock.error{
+  .inputLabel{
+    color: #D32F2F;
+  }
+  .inputBox{
+    border: 1px solid #D32F2F
+  }
+
+  &:hover{
+    .inputLabel{
+      color: #333;
+    }
+    .inputBox{
+      border: 1px solid #333;
+    }
+  }
+
+  &:focus{
+    .inputLabel{
+      color: #D32F2F;
+    }
+    .inputBox{
+      border: 1px solid #D32F2F
+    }
+  }
+}
+
+
+// Inputblock with disabled prop
+.inputBlock.disabled{
+  .inputBox{
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+    cursor: not-allowed;
+  }
+}
+
+// HelperText
+.helperText{
+  font-family: 'Noto Sans';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4px;
+  color: #828282;
+}
+
+// Start & End Icons
+.startIcon{
+  position: absolute;
+  top:0;
+  left:0;
+  margin-top:38px;
+  margin-left: 10px;
+  color: #828282;
+}
+
+.endIcon{
+  position: absolute;
+  top:0;
+  left:0;
+  margin-top:38px;
+  color: #828282;
+  margin-left: 190px;
+}
+
+.inputBlock .call  {
+  padding-left: 40px;
+}
+// Input sizes
+// Default size - md
+// Small size
+.sm {
+  padding: 10px 12px;
+}
+
+
+
+// FullWidth
+.fullWidth .inputBox{
+  width: 100%;
+}

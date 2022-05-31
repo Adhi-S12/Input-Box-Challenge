@@ -1,0 +1,31 @@
+.wrapper{
+  max-width: 1000px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 46px;
+}
+
+.pageTitle{
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+  margin-bottom: 60px;
+  grid-template-columns: 1 / -1;
+}
+
+// Fullwidth row
+.row .fullWidth{
+  display: block;
+  grid-column: 1/-1;
+  width: 100%;
+}
