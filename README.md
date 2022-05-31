@@ -7,11 +7,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://button-component-challenge-adhi.netlify.app/">
+    <a href="https://inputchallenge-adhi.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/AdhipathiPandiyan-S/Button-Component-Challenge">
+    <a href="https://github.com/AdhipathiPandiyan-S/Input-Box-Challenge">
       Solution
     </a>
     <span> | </span>
